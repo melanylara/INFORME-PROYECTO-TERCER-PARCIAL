@@ -37,8 +37,23 @@ INTEGRANTES:
 
 **PROCEDIMIENTO**
 
+* Colocaremos el sensor de temperatura LM35 tomando en cuenta el datasheet de conexiones respectivas. 
 
-**4. ANALIZAR CADA ELEMENTO DEL CIRCUITO **
+* Como se necesita amplificar la señal que proporciona la salida de este sensor más una condición, conectaremos un amplificador operacional LM358, solo ocuparemos uno de los dos que lo forman. 
+
+* En el pin 3 del LM358 ingresara la señal del sensor de temperatura LM3 
+
+* En el pin 2 conectaremos el potenciómetro de 10kΩ, colocándole como un divisor de voltaje entre positivo y negativo 
+
+* Como la salida del LM358 me permite tener tanto una señal negativa como positiva, conectaremos dos diodos led en ambas polaridades 
+
+* Procedemos a conectar una fuente de 6v, ya que ambos componentes funcionan en estos voltajes
+
+**CIRCUITO FISICO**
+
+![image](https://user-images.githubusercontent.com/105020538/221755316-1bef7b9e-59c9-4c11-94c1-7fa305550afe.png)
+
+**4. ANALIZAR CADA ELEMENTO DEL CIRCUITO**
 
 
 
@@ -46,7 +61,7 @@ INTEGRANTES:
 
 **5. VIDEO**
 
-
+https://youtu.be/IMWU9rcGOlE
 
 **6. CONCLUSIONES** 
 
