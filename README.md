@@ -55,9 +55,25 @@ INTEGRANTES:
 
 **4. ANALIZAR CADA ELEMENTO DEL CIRCUITO**
 
+**Sensor de temperatura LM 35** 
 
+El LM35 funciona básicamente como un sensor de temperatura el cuál por cada grado centígrado enviará 10 mv a su salida, lo ocupamos en este circuito para ser comparado con otro voltaje previamente establecido con el potenciometro de 10k. 
 
+**Amplificador operacional LM 358** 
 
+El LM358 específicamente en este circuito actúa como un commparador de voltaje que produce una señal alta o baja en función de si la señal en la entrada no inversora es mayor o menos que la señal en la entrada inversora. 
+ 
+**Potenciómetro 10 kΩ**
+
+Este elemento nos sirve para preestablecer un valor de voltaje para ser comparado con el sensor de temperatura, lo podemos regular a la temperatura que queramos mediante la lógica 10mv=1 grado centígrado.  
+
+**Diodos LED** 
+
+Los diodos funcionan como luces piloto en nuestro circuito, usaremos dos, uno para ver si la temperatura ingresada al LM35 es menor al voltaje del potenciómetro y así mismo otro que se encenderá cuando el voltaje generado por el LM35 sea mayor, lo cual indica que nuestro sensor de temperatura posee un valor mayor. 
+
+**Resistencias de 470** 
+
+Las resistencias nos sirven para reducir la cantidad de corriente que entra a los diodos led para protegerlos y evitar que se quemen, esto prolongará su vida útil. 
 
 **5. VIDEO**
 
