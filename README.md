@@ -49,6 +49,10 @@ INTEGRANTES:
 
 * Procedemos a conectar una fuente de 6v, ya que ambos componentes funcionan en estos voltajes
 
+**DIAGRAMA ESQUEMATICO**
+
+![image](https://user-images.githubusercontent.com/105020538/221911022-a3d1fa1e-5652-4729-9b5a-56bbe54f8aaa.png)
+
 **CIRCUITO FISICO**
 
 ![image](https://user-images.githubusercontent.com/105020538/221755316-1bef7b9e-59c9-4c11-94c1-7fa305550afe.png)
